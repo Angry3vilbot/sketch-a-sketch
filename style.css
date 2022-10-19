@@ -6,3 +6,15 @@ div#mainContainer{
 	grid-template-columns: repeat(16, 30px);
 	grid-template-rows: repeat(16, 30px);
 }
+button{
+	width: 65px;
+	color: white;
+	border: transparent;
+}
+#buttonYellow, #buttonCyan, #eraser{
+	color: black;
+}
+#eraser{
+	width: 479px;
+	margin-top: 10px;
+}

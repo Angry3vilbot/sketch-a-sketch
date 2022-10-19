@@ -7,7 +7,19 @@
 	<title>Sketch-a-Sketch</title>
 </head>
 <body>
-	<div id="mainContainer"></div>
+	<div style="display: flex; flex-direction: column; align-items: center;">
+		<div id="mainContainer"></div>
+		<div>
+			<button onclick="changeBrush('red')" id="buttonRed" style="background-color: red; margin-top: 20px;">Red</button>
+			<button onclick="changeBrush('orange')" id="buttonOrange" style="background-color: orange; margin-top: 20px;">Orange</button>
+			<button onclick="changeBrush('yellow')" id="buttonYellow" style="background-color: yellow; margin-top: 20px;">Yellow</button>
+			<button onclick="changeBrush('green')" id="buttonGreen" style="background-color: green; margin-top: 20px;">Green</button>
+			<button onclick="changeBrush('cyan')" id="buttonCyan" style="background-color: cyan; margin-top: 20px;">Cyan</button>
+			<button onclick="changeBrush('blue')" id="buttonBlue" style="background-color: blue; margin-top: 20px;">Blue</button>
+			<button onclick="changeBrush('purple')" id="buttonPurple" style="background-color: purple; margin-top: 20px;">Purple</button><br>
+			<button onclick="changeBrush('white')" id="eraser">Eraser</button>
+		</div>
+	</div>
 </body>
 <script type="text/javascript" src="script.js"></script>
 </html>
